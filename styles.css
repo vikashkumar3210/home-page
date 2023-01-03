@@ -234,14 +234,14 @@ footer{
         margin-left:10px;
     }
     div.nav-wrapper{
-        
-        display:none;
         width:200px;
         height:50vh;
         top:0;
         right:0;
-        border:2px solid black;
-         transition:display 2s;
+        border:1px solid black;
+        border-radius:4px;
+        transform:translateX(200px);
+         transition:transform 1s;
         background-color:white;
     
         
@@ -264,7 +264,7 @@ footer{
         display:none;
     }
      input:checked ~ .nav-wrapper{
-        display: block;
+        transform:translateX(0px);
         
     }
 
