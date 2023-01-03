@@ -241,7 +241,7 @@ footer{
         top:0;
         right:0;
         border:2px solid black;
-
+         transition:display 2s;
         background-color:white;
     
         
